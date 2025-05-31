@@ -13,7 +13,7 @@ const Home = () => {
       </div>
       <div className="image-area">
         <img
-          src="/coder.jpg"
+          src="./coder.jpg"
           alt="Developer at work"
           className="developer-image"
         />

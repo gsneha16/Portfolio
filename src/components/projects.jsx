@@ -3,7 +3,7 @@ import "./main.css";
 const projects = [
   {
     title: "VeggieVibe",
-    image: "/VeggieVibe - 1.png",
+    image: "./VeggieVibe - 1.png",
     description:
       "A full-stack MERN application for food enthusiasts, featuring a user-friendly interface and robust backend.",
     tech: "MERN",
@@ -12,7 +12,7 @@ const projects = [
   },
   {
     title: "PrivaCoder",
-    image: "/PrivaCoder - 1.png",
+    image: "./PrivaCoder - 1.png",
     description:
       "Responsive, clean UI with React, HTML5, CSS3, and JavaScript.",
     tech: "MERN",
