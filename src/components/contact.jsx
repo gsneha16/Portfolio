@@ -82,7 +82,7 @@ const Contact = () => {
             )}
           </div>
 
-          <button type="submit" className="submit-button">
+          <button type="submit" className="submit-button gradient-text-sm">
             Send
           </button>
         </form>

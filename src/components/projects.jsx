@@ -37,7 +37,7 @@ const ProjectCard = ({ title, image, description, tech, live, code }) => {
       <div className="project flex-center">
         {projects.map((project, index) => {
           return (
-            <div className="project-card">
+            <div className="project-card" key={index}>
               <img src={project.image} alt={project.title} className="project-image" />
               <div className="project-content">
                 <h3>{project.title}</h3>
