@@ -16,6 +16,14 @@ ul li{
   font-size: 1.1rem;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: rgb(168, 168, 222);
+}
+
 .nav-list li:hover {
   color: rgb(168, 168, 222);
 }
@@ -330,4 +338,11 @@ ul li{
   .nav-list{
     display: none;
   }
+}
+
+/* FOOTER */
+
+.footer{
+  height:fit-content;
+  padding-bottom: 1rem;
 }

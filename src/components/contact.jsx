@@ -23,14 +23,26 @@ const Contact = () => {
     <div className="outer-container contact-box">
       <div className="contact-text ">
         <h2 className="gradient-text-lg">Do you have a project to discuss?</h2>
-        <p>Feel free to contact <AiFillMessage />
-</p>
-        <div className="flex-center social-icons">
-          <CgMail className="icons" />
-          <CiLinkedin className="icons"  />
-<FaGithubSquare  className="icons"  />
-
-        </div>
+        <p>
+          Feel free to contact <AiFillMessage />
+        </p>
+        <ul className="flex-btwn social-icons">
+          <li className="icons">
+            <a href="https://github.com/gsneha16/gsneha16">
+              <FaGithubSquare />
+            </a>
+          </li>
+          <li className="icons">
+            <a href="https://www.linkedin.com/in/sneha-goyal-70899b276">
+              <CiLinkedin />
+            </a>
+          </li>
+          <li className="icons">
+            <a href="/">
+              <CgMail />
+            </a>
+          </li>
+        </ul>
       </div>
 
       <div className="contact-form">

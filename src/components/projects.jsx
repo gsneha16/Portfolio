@@ -40,7 +40,7 @@ const ProjectCard = ({ title, image, description, tech, live, code }) => {
             <div className="project-card" key={index}>
               <img src={project.image} alt={project.title} className="project-image" />
               <div className="project-content">
-                <h3>{project.title}</h3>
+                <h3 className="gradient-text-sm">{project.title}</h3>
                 <p>{project.description}</p>
                 <p>
                   <strong>Tech Stack: {project.tech}</strong> 
