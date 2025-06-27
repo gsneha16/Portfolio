@@ -7,8 +7,8 @@ const projects = [
     description:
       "A full-stack MERN application for food enthusiasts, featuring a user-friendly interface and robust backend.",
     tech: "MERN",
-    live: "",
-    code: "",
+    live: "https://veggie-vibe-ui.vercel.app/",
+    code: "https://github.com/gsneha16/Veggie-Vibe-MERN-PROJECT",
   },
   {
     title: "PrivaCoder",
@@ -17,7 +17,7 @@ const projects = [
       "Responsive, clean UI with React, HTML5, CSS3, and JavaScript.",
     tech: "MERN",
     live: "https://priva-coder-ui.vercel.app/",
-    code: "",
+    code: "https://github.com/gsneha16/privaCoder",
   },
   {
     title: "WebPlayer",
