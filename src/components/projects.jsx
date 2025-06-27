@@ -20,17 +20,17 @@ const projects = [
     code: "https://github.com/gsneha16/privaCoder",
   },
   {
-    title: "WebPlayer",
-    image: "/webplayer.png",
+    title: "Resume Builder",
+    image: "/resumeBuilder.png",
     description:
-      "Secure APIs using Node.js, Express.js, and integrated database logic.",
-    tech: "",
-    live: "",
-    code: "",
+      "A user-friendly resume builder that allows users to create and download resumes in PDF format.",
+    tech: "HTML, CSS, JavaScript",
+    live: "https://resume-builder-eta-plum.vercel.app/",
+    code: "https://github.com/gsneha16/Resume-Builder",
   },
 ];
 
-const ProjectCard = ({ title, image, description, tech, live, code }) => {
+const ProjectCard = () => {
   return (
     <div className="outer-container">
       <h1 className="heading gradient-text-lg">Projects</h1>
