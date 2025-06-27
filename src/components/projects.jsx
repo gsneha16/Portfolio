@@ -47,14 +47,14 @@ const ProjectCard = ({ title, image, description, tech, live, code }) => {
                 </p>
                 <div className="project-links">
                   <a
-                    href="https://veggie-vibe-ui.vercel.app/"
+                    href={project.live}
                     target="_blank"
                     rel="noreferrer"
                   >
                     Live
                   </a>
                   <a
-                    href="https://github.com/gsneha16/Veggie-Vibe-MERN-PROJECT"
+                    href={project.code}
                     target="_blank"
                     rel="noreferrer"
                   >
